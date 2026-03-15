@@ -49,6 +49,7 @@ void app_main()
         {
             HAL_GPIO_WritePin(RED_LED_GPIO_Port, RED_LED_Pin, GPIO_PIN_SET);
             printf("yes");
+            printf("no");
         }
         else
         {
