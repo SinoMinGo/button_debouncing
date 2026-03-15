@@ -48,8 +48,6 @@ void app_main()
         if (BtnState == 1)
         {
             HAL_GPIO_WritePin(RED_LED_GPIO_Port, RED_LED_Pin, GPIO_PIN_SET);
-            printf("yes");
-            printf("no0");
         }
         else
         {
